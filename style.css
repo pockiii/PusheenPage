@@ -1,0 +1,76 @@
+body {
+  background-color: #FFF1E8;
+}
+canvas {
+  display: inline-block;
+}
+.container {
+  padding-left: 2.5rem;
+  overflow: hidden;
+  margin: 5% 20%;
+  height: 40rem;
+  width: 55rem;
+  border-radius: 3rem;
+  box-shadow: 15px 15px 0 #c4bab3;
+
+  border: 1rem solid #4B280C;
+  background-color: #BDADA0;
+}
+.top {
+  height: 7rem;
+  width: auto;
+}
+#curvedLine {
+  margin-left: -.6rem;
+}
+#curvedLine2 {
+  margin-left: -15.4rem;
+}
+#stripe {
+  margin: 0 .8rem;
+  border-radius: 5rem;
+  border: 1.2rem solid #5C534C;
+  padding: 1rem 0;
+  background-color: #5C534C;
+}
+#tmouth {
+  margin-left: 3rem;
+  margin-top: 4.5rem;
+  display: inline-block;
+  border-radius: 5rem;
+  border: 1rem solid #4B280C;
+  padding: 1rem 0;
+  background-color: #4B280C;
+}
+#tbot {
+  margin-top: -2.5rem;
+}
+#spot {
+  margin: 1rem 1rem;
+  padding: 3rem;
+  border-radius: 50%;
+  background-color: #5C534C;
+}
+.space {
+  margin: 0 3rem;
+}
+.space2 {
+  margin: 0 .5rem;
+}
+#eye1,#eye2 {
+  margin: 0 2rem 0 2rem;
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 50%;
+  background-color: #4B280C;
+}
+#eye2 {
+  margin: 0 5.5rem !important;
+}
+#mouth {
+  position: absolute;
+  margin-top: -4.8rem;
+}
+.middle span {
+  display: inline-block;
+}
