@@ -7,9 +7,9 @@ canvas {
 .container {
   padding-left: 2.5rem;
   overflow: hidden;
-  margin: 5% 20%;
+  margin: 5% auto;
   height: 40rem;
-  width: 55rem;
+  width: 50%;
   border-radius: 3rem;
   box-shadow: 15px 15px 0 #c4bab3;
 
@@ -46,7 +46,7 @@ canvas {
   margin-top: -2.5rem;
 }
 #spot {
-  margin: 1rem 1rem;
+  margin: 1rem 0rem;
   padding: 3rem;
   border-radius: 50%;
   background-color: #5C534C;
@@ -56,6 +56,9 @@ canvas {
 }
 .space2 {
   margin: 0 .5rem;
+}
+.space3 {
+  margin: 0 16%;
 }
 #eye1,#eye2 {
   margin: 0 2rem 0 2rem;
@@ -73,4 +76,10 @@ canvas {
 }
 .middle span {
   display: inline-block;
+}
+@media only screen and (max-width: 1565px){
+  #spot {
+    all: unset;
+
+  }
 }
